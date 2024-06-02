@@ -9,7 +9,7 @@ function App() {
     <div className="h-full bg-[#303c5c] flex justify-center items-center gap-5 py-10">
       <Sidebar setTitle="IDS"/>
       <Routes>
-        <Route exact path='/Intrusion-Detection-System' element={<Status/>}/>
+        <Route exact path='/' element={<Status/>}/>
       </Routes>
     </div>
     </BrowserRouter>
