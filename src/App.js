@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+import Sidebar from './components/Sidebar'
 import './App.css';
+import { BrowserRouter, Routes, Route,  } from 'react-router-dom';
+import Status from './components/Status';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <BrowserRouter>
+    <div className="h-full bg-[#303c5c] flex justify-center items-center gap-5 py-10">
+      <Sidebar setTitle="IDS"/>
+      <Routes>
+        <Route exact path='/' element={<Status/>}/>
+      </Routes>
     </div>
+    </BrowserRouter>
   );
 }
 

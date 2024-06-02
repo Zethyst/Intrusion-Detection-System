@@ -24,15 +24,35 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Active-menu {
+  background: linear-gradient(92deg, #595ff7 -229%, transparent 94%);
+  border-left: 4px solid #0ea5e9;
+}
+.active{
+  border-bottom: 4px solid #0ea5e9 !important;  
+  color: #0ea5e9 !important;  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ping {
+  border-radius: 50%;
+  border: 20px solid #222;
+  width: 40px;
+  height: 40px;
+  /* color:black; */
+  animation: load 1.5s ease-out infinite;
+}
+
+@keyframes load {
+  0% {
+    /* background: #fff; */
+    border: 0px solid #aca8a8;
+ }
+  50% {
+    /* background: #fff; */
+    border: 50px solid #cdcaca;
+ }
+  100% {
+    /* background: #fff; */
+    border: 0px solid #fff;
+ }
 }
