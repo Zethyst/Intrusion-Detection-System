@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Intrusion-Detection-System/static/css/main.670d5878.css",
+    "main.js": "/Intrusion-Detection-System/static/js/main.1d31e4ba.js",
+    "static/js/453.c41c69ff.chunk.js": "/Intrusion-Detection-System/static/js/453.c41c69ff.chunk.js",
+    "index.html": "/Intrusion-Detection-System/index.html",
+    "main.670d5878.css.map": "/Intrusion-Detection-System/static/css/main.670d5878.css.map",
+    "main.1d31e4ba.js.map": "/Intrusion-Detection-System/static/js/main.1d31e4ba.js.map",
+    "453.c41c69ff.chunk.js.map": "/Intrusion-Detection-System/static/js/453.c41c69ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.670d5878.css",
+    "static/js/main.1d31e4ba.js"
+  ]
+}
