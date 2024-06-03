@@ -1,7 +1,7 @@
-<h1 align="center">Intrusion Detection System/h1>
+<h1 align="center">Intrusion Detection System</h1>
 
 <p>
-**# Security at your fingertips !  **
+Security at your fingertips !
 
 This website provides an interactive map displaying information to visualize network security events from fetched data. It processes and displays critical information about network activities, helping to identify potential security threats.</p>
 
