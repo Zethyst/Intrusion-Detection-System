@@ -2,16 +2,12 @@ import React from "react";
 import data from "../data.json";
 
 function Overview() {
-  // Initialize an object to store the counts
   const eventTypeCounts = {};
-  // Iterate over the events array
   data.forEach((event) => {
     const eventType = event.event_type;
-    // If the event_type is not yet in the eventTypeCounts object, initialize it to 1
     if (!eventTypeCounts[eventType]) {
       eventTypeCounts[eventType] = 1;
     } else {
-      // If the event_type is already in the object, increment the count
       eventTypeCounts[eventType]++;
     }
   });

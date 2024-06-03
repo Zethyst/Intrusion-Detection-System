@@ -4,7 +4,6 @@ import Chart from 'react-apexcharts'
 
 function Protocol() {
     const protoTypeCounts = {};
-    // Iterate over the events array
     data.forEach((event) => {
       const protoType = event.proto;
       if (!protoTypeCounts[protoType]) {
