@@ -3,7 +3,7 @@
 <p>
 **# Security at your fingertips !  **
 
-This website provides an interactive map displaying information about shipping goods, offering insights into various aspects of the shipping process. Through the use of markers, it visualizes the locations of different shipping-related entities such as origin ports, destination ports, carriers, consignees, and milestones. The map is complemented by pie charts that provide a graphical analysis of the data, making it easier to understand trends and patterns in the shipping industry. Additionally, the website offers data labels to provide further context and information about the displayed data, enhancing the user's understanding of the shipping landscape. Overall, this website offers a comprehensive and visually appealing way to explore and analyze shipping data."</p>
+This website provides an interactive map displaying information to visualize network security events from fetched data. It processes and displays critical information about network activities, helping to identify potential security threats.</p>
 
 [Visit Now](https://example.com/) 🚀
 ### `npm start`
@@ -30,8 +30,6 @@ You may also see any errors in the console.
 ## 📌 Screenshots:
 ![home1](/img/home1.png)
 ![home2](/img/home2.png)
-![analytics](/img/Analytics.png)
-![table](/img/DataTable.png)
 
 
 
